@@ -1,21 +1,15 @@
 # Cynaptics
-  Hi, I'm Aditya Rai, and I'm currently working on tasks assigned as part of my induction into the Cynaptics club. Here's an overview of the subtasks I've been tackling:
+  Hello, I am Aditya Rai. Here, I am working on the tasks assigned for the induction into the Cynaptics club.
 
-## Subtask 1: Image Classification (Real or AI-Generated)
-  For this task, I built a model that classifies images as either real or AI-generated. I used the ResNet50 architecture for this purpose, leveraging its robust feature      extraction capabilities to achieve accurate classification.
+## Subtask 1
+  In this task, we need to create a model that classifies whether an image is real or AI-generated. For this, I have used the ResNet50 model.
 
-## Subtask 2: Generative Adversarial Network (GAN)
-  This task involved creating a GAN to generate images. The GAN comprises two main components:
+## Subtask 2
+  In this task, we need to create a GAN model capable of generating images. This involves creating two models:
 
-    Generator: Produces images from random noise.
-    Discriminator: Distinguishes between real and generated images.
-  
-  The aim is to train the generator to create realistic images by minimizing its loss, while simultaneously training the discriminator to improve its ability to classify     images correctly by maximizing its loss. Additionally, the discriminator from this model is also utilized for Subtask 1.
+    Generator: This model generates images from random noise.
+    Discriminator: This model classifies whether the generated image is real or fake.
+  Our main goal is to minimize the generator loss and maximize the discriminator loss to improve the performance of the models. Additionally, the discriminator is also       used for the task in Subtask 1.
 
-## Subtask 3: Day-Night Image Transformation using CycleGAN
-  For this task, I developed a CycleGAN model to create a day-night image transformation theme. This approach involves:
-
-    Two Generators: One for transforming day images to night and the other for the reverse.
-    Two Discriminators: One for evaluating the day-to-night transformations and the other for night-to-day transformations.
-
-  The CycleGAN ensures that transformations are consistent and realistic by enforcing a cyclic consistency loss, allowing seamless image transformations between the two      themes.
+## Subtask 3
+  In this task, I have created a day-night theme using CycleGAN. This involves two generators and two discriminators. And applying the concept of cycleGAN to transform       images between day and night themes.
