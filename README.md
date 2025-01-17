@@ -1,5 +1,4 @@
 # Cynaptics
-  Hello, I am Aditya Rai.
   Hi, I'm Aditya Rai, and I'm currently working on tasks assigned as part of my induction into the Cynaptics club. Here's an overview of the subtasks I've been tackling:
 
 ## Subtask 1: Image Classification (Real or AI-Generated)
